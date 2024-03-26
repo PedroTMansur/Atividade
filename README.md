@@ -1,8 +1,3 @@
-use serde::Deserialize;
-use std::fs::File;
-use std::io::{self, BufReader};
-
-#[derive(Debug, Deserialize)]
 struct Matrix {
     data: Vec<Vec<f64>>,
 }
